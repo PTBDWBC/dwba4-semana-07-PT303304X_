@@ -33,7 +33,28 @@ aside p {
 h1{
 	text-align: center;
 }
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; 
+    justify-content: center; 
+}
 
+.grid-item {
+    text-align: center;
+}
+.imagem-1{
+	width: 75px;	
+}
+.imagem-2{
+	width: 75px;	
+}
+.imagem-3{
+	width: 50px;	
+}
+.imagem-4{
+	width: 50px;	
+}
 
 
 
